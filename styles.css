@@ -1,0 +1,114 @@
+
+*  {
+
+
+}
+
+.app .first1 h1 {
+    margin-top: 10px;
+    font-size: 35px;    
+    font-weight: 700;
+    color: skyblue;
+    text-shadow: 3px 1px 0 black ;
+    
+}
+
+
+.app .first1 button {
+    background-color: orange;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+   
+}
+
+
+
+.app .first1 button a {
+    text-decoration: none;
+    color: black;
+}
+
+.app .first1 img {
+    margin-top: 10px;
+}
+
+
+
+
+.app .centerimg {
+    margin-top: 40px;
+
+
+}
+
+.app .secound {
+
+    text-align: center;
+}
+
+.app .secound .first {
+    margin-top: 100px;
+
+}
+
+.hyouban  {
+    text-align: center;
+}
+
+.hyouban h1 {
+    margin-top: 60px;
+}
+.hyouban img {
+    margin-top: 50px;
+}
+
+
+.target {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity .3s, transform .3s;
+}
+
+.target.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.conf {
+    text-align: center;
+}
+
+.conf h1 {
+    margin-top: 70px;   
+    font-size: 40px;
+}
+
+.btn-square {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: orange;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 2px black;
+    border-radius: 3px;
+  }
+  .btn-square:hover {
+    /*ボタンを押したとき*/
+    color:  white;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+
+  .conf footer {
+
+
+      margin-top: 50px;
+      font-size: 14px;
+
+
+  }
