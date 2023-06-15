@@ -1,7 +1,7 @@
 'use strict';
 
 {
-    alert('注意　これはデモサイトです。')
+ 
     const targets = document.querySelectorAll('.target');
 
     function callback(entries,obs) {
